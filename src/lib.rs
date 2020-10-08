@@ -1,7 +1,6 @@
 #![forbid(
     rust_2018_idioms,
     future_incompatible,
-    elided_lifetimes_in_paths,
     unsafe_code
 )]
 #![warn(
@@ -9,10 +8,7 @@
     missing_docs,
     trivial_casts,
     trivial_numeric_casts,
-    unreachable_pub,
-    unused_extern_crates,
-    unused_import_braces,
-    unused_qualifications
+    unused
 )]
 
 //! An attribute to create an atomic wrapper around a C-style enum.
