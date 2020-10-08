@@ -1,13 +1,11 @@
-#![forbid(
-    rust_2018_idioms,
-    future_incompatible,
-    unsafe_code
-)]
 #![warn(
+    future_incompatible,
     missing_debug_implementations,
     missing_docs,
+    rust_2018_idioms,
     trivial_casts,
     trivial_numeric_casts,
+    unsafe_code,
     unused
 )]
 
